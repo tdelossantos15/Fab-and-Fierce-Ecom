@@ -1,6 +1,6 @@
 # Fab & Fierce Fashion Store
 
-A modern e-commerce platform for Filipino fashion with advanced shopping features. This full-stack application combines a Next.js frontend with a FastAPI backend.
+A modern e-commerce platform for Filipino fashion with advanced shopping features. 
 
 
 ## Features
@@ -63,38 +63,6 @@ The application follows a client-server architecture:
 - **Smart Shopping**: Use advanced filtering to find products that match specific criteria
 - **Gift Shopping**: Create wishlists and find special offers for gift-giving occasions
 
-### For Store Owners
-- **Inventory Management**: Track product availability and make updates as needed
-- **Sales Analysis**: Monitor shopping patterns and popular items
-- **Promotion Management**: Create and manage flash sales and special offers
-- **Customer Insights**: Analyze user behavior and preferences to inform business decisions
-
-### For Developers
-- **Reference Implementation**: Study modern web application architecture and patterns
-- **Component Library**: Explore reusable UI components built with Radix and Tailwind
-- **API Design**: Examine RESTful API design patterns with FastAPI
-- **AI Integration**: Learn how to integrate machine learning features into e-commerce
-
-## Known Issues and Limitations
-
-### Technical Limitations
-- **Image Processing Delay**: Visual search and virtual try-on features may experience latency due to processing requirements
-- **Mobile Responsiveness**: Some complex UI elements may not render optimally on all mobile devices
-- **Browser Compatibility**: Advanced features rely on modern browser capabilities and may not work in older browsers
-- **Local Storage Limits**: Cart and wishlist data stored in browser storage has size limitations
-
-### Functional Constraints
-- **Payment Processing**: Currently implements mock payment processing only; integration with real payment gateways requires additional setup
-- **User Authentication**: Session management is simplified for demonstration purposes; production deployment would require more robust security measures
-- **Image Upload Limits**: Visual search has file size and format restrictions
-- **Product Inventory**: Real-time inventory tracking has limitations and may not reflect actual availability instantly
-
-### Performance Considerations
-- **Initial Load Time**: First page load may be slower due to asset loading and hydration
-- **Search Performance**: Complex search queries may experience latency with large product catalogs
-- **API Rate Limits**: High volume of concurrent requests may be throttled
-- **Database Scaling**: Current implementation is optimized for demonstration rather than high-volume production use
-
 ## Tech Stack
 
 ### Frontend
@@ -110,13 +78,6 @@ The application follows a client-server architecture:
 - **SQLAlchemy**: SQL toolkit and ORM
 - **SQLite**: Database for development
 - **Pydantic**: Data validation and settings management
-
-## Getting Started
-
-### Prerequisites
-- Node.js (v18 or higher)
-- Python (v3.8 or higher)
-- pnpm (preferred) or npm
 
 ### Installation
 
@@ -145,14 +106,10 @@ The application follows a client-server architecture:
 #### Frontend Setup
 1. Install dependencies from the root directory:
    ```bash
-   pnpm install
-   # or
    npm install --legacy-peer-deps
    ```
 
 2. Run the development server:
    ```bash
-   pnpm run dev
-   # or
    npm run dev
    ```
