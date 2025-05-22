@@ -156,33 +156,3 @@ The application follows a client-server architecture:
    # or
    npm run dev
    ```
-   The application will be available at http://localhost:3000 (or another port if 3000 is in use)
-
-### API Documentation
-- API documentation is available at http://localhost:8000/docs when the backend server is running
-
-## Project Structure
-
-```
-├── app/                # Next.js pages and app directory
-│   ├── admin/          # Admin dashboard
-│   ├── api/            # API routes
-│   ├── components/     # App-specific components
-│   ├── globals.css     # Global styles
-│   └── page.tsx        # Homepage
-├── backend/            # FastAPI backend
-│   ├── main.py         # Main FastAPI application
-│   ├── models.py       # Database models
-│   ├── crud.py         # Database operations
-│   ├── database.py     # Database connection
-│   └── requirements.txt # Python dependencies
-├── components/         # Shared React components
-│   ├── ui/             # UI components
-│   └── ...             # Other components
-├── data/               # Mock data and fixtures
-├── lib/                # Shared utility functions
-├── public/             # Static files
-└── styles/             # CSS styles
-```
-
-
